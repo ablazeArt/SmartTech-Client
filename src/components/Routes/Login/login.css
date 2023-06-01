@@ -1,0 +1,98 @@
+:root {
+  --login-color: white;
+}
+
+.login-page {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #77b7d7;
+  background-image: url(./login-wall.webp);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.login-card {
+  background-color: var(--login-color);
+  border-radius: 9px;
+  padding: 30px  0;
+}
+
+.login-head {
+  margin-bottom: 20px;
+  font-size: 3rem;
+  font-weight: 700;
+  border-bottom: 1px solid;
+  padding: 20px 0 40px;
+  border-bottom: 1px solid silver;
+}
+
+.login-form {
+  padding: 0 40px;
+}
+
+.login-form .txt_field {
+  position: relative;
+  border-bottom: 2px solid #adadad;
+  margin: 30px 0;
+  padding: 0 40px;
+}
+
+.txt_field input {
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.txt_field label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: #adadad;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.txt_field span::before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #2691d9;
+  transition: 0.5s;
+}
+
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label {
+  top: -5px;
+  color: #2691d9;
+}
+
+.txt_field input:focus ~ span::before,
+.txt_field input:valid ~ span::before {
+  width: 100%;
+}
+
+.btn-login {
+  margin-top: 10px;
+  padding: 10px 0;
+  width: 80%;
+  border-radius: 9px;
+  background-color: rgb(107, 213, 255);
+}
+
+.btn-login:hover {
+  background-color: rgb(98, 241, 254);
+}
+
