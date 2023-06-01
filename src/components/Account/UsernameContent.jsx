@@ -83,9 +83,6 @@ const Username = () => {
           text: err.response.data.error,
         });
       });
-    setTimeout(function () {
-      window.location.reload();
-    }, 1300);
   };
 
   return (
