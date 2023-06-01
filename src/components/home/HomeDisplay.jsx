@@ -11,7 +11,7 @@ const HomeDisplay = () => {
       const [sensorResponse, actuatorResponse] = await Promise.all([axios.get(`${process.env.REACT_APP_API}/valueSensors`), axios.get(`${process.env.REACT_APP_API}/statusActuators`)]);
       setSensorValue(sensorResponse.data);
       setActuatorStatus(actuatorResponse.data);
-      // timerRef.current = setTimeout(fetchData, 1000);
+      timerRef.current = setTimeout(fetchData, 1000);
     } catch (error) {
       console.log(error);
     }
