@@ -795,6 +795,12 @@ option {
 }
 
 @media (max-width: 532px) {
+
+  header.active {
+    left: 0%;
+    font-size: 60.5%;
+  }
+
   .value-text {
     margin-left: 0px;
   }
