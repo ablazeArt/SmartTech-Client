@@ -223,17 +223,17 @@ header .follow a:hover {
 }
 
 .btn-display-home {
-    background: #5BC0F8;
-    padding: 5px 10px;
-    border-radius: 9px;
-    margin: 10px 0 0 25px;
-    font-size: 1.3rem;
-    color: rgb(44, 44, 242);
-    font-weight: 500;
-  }
+  background: #5bc0f8;
+  padding: 5px 10px;
+  border-radius: 9px;
+  margin: 10px 0 0 25px;
+  font-size: 1.3rem;
+  color: rgb(44, 44, 242);
+  font-weight: 500;
+}
 
 .btn-display {
-  background: #5BC0F8;
+  background: #5bc0f8;
   padding: 5px 10px;
   border-radius: 9px;
   margin: 10px 0 0 25px;
@@ -612,6 +612,7 @@ select {
 .space-box-list {
   margin: 0px 420px;
 }
+
 .list-display {
   display: flex;
   justify-content: center;
@@ -640,11 +641,11 @@ select {
 }
 
 .starting {
-  background-color:#adf;
+  background-color: #adf;
 }
 
 .ending {
-  background-color:rgb(253, 159, 156);
+  background-color: rgb(253, 159, 156);
 }
 
 .img-status {
@@ -773,16 +774,27 @@ option {
     width: 440px;
     height: 280px;
   }
-
 }
 
 @media (max-width: 770px) {
   .value-text {
     margin-left: 85px;
   }
+
+  .home-actuator {
+    margin-top: 10px;
+  }
+
+  .list-display-text {
+    margin: 13px 5px 20px;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 1rem;
+  }
+  
 }
 
-@media (max-width: 450px) {
+@media (max-width: 532px) {
   .value-text {
     margin-left: 0px;
   }
@@ -806,6 +818,52 @@ option {
   .camera-frame {
     width: 280px;
     height: 180px;
+  }
+
+  [role="progressbar"] {
+    --size: 100px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+
+  .home-actuator {
+    margin-top: 10px;
+  }
+
+  .value-text {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 15px;
+    padding: 5px 10px;
+    border: 1px solid;
+    border-radius: 8px;
+    background-color: #c5d3db;
+    color: var(--deep-color);
+    font-size: 2rem;
+    font-weight: 650;
+  }
+
+  .list-display {
+    display: flex;
+    justify-content: center;
+  }
+
+  .list-display-text {
+    margin: 13px 5px 20px;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 0.65rem;
+  }
+
+  .form-command-head-value {
+    font-size: 1.4rem;
+  }
+
+  .form-value {
+    margin-bottom: 25px;
+    margin-right: 0px;
+    padding: 5px 10px;
+    font-size: 0.65rem;
   }
 
 }

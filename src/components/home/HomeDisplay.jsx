@@ -83,7 +83,7 @@ const HomeDisplay = () => {
                 </div>
               </div>
             </div>
-            <div className="col">
+            <div className="col home-actuator">
               <div id="home-actuator-display1" className="actuator-display">
                 <h1>Servo Motor</h1>
                 <div className="actuator-display-status">
