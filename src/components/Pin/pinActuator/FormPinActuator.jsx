@@ -88,7 +88,7 @@ const FormPinActuator = () => {
           <form onSubmit={submitForm}>
             <div className="row align-items-start command-form">
               <div className="col column-line command-actuator">
-                <h1 head-block>Actuator Pin</h1>
+                <h1 className="actuator-name-form">Actuator Pin</h1>
               </div>
               <div className="col column-line command-actuator">
                 <h1>

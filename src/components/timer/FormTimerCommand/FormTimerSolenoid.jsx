@@ -80,7 +80,7 @@ const FormTimerSolenoid = () => {
           <form onSubmit={submitForm}>
             <div className="row align-items-start command-form">
               <div className="col column-line command-actuator">
-                <h1 head-block>Solenoid</h1>
+                <h1 className="actuator-name-form">Solenoid</h1>
               </div>
               <div className="col column-line command-actuator">
                 <h1>
@@ -90,7 +90,7 @@ const FormTimerSolenoid = () => {
                     <option value="off">OFF</option>
                   </select>
                 </h1>
-                <h1 head-block>Starting Time</h1>
+                <h1 className="actuator-name-form">Starting Time</h1>
                 <h1>
                   <select onChange={inputValue("dayStart")}>
                     <option value="">Starting Day</option>
@@ -109,7 +109,7 @@ const FormTimerSolenoid = () => {
                     {optionsMinute}
                   </select>
                 </h1>
-                <h1 head-block>Ending Time</h1>
+                <h1 className="actuator-name-form">Ending Time</h1>
                 <h1>
                   <select onChange={inputValue("dayEnd")}>
                     <option value="">Ending Day</option>

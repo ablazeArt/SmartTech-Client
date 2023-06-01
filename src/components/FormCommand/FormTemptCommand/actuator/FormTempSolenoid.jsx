@@ -50,7 +50,7 @@ const FormTempSolenoid = () => {
           <form onSubmit={submitForm}>
             <div className="row align-items-start command-form">
               <div className="col column-line command-actuator">
-                <h1 head-block>Solenoid</h1>
+                <h1 className="actuator-name-form">Solenoid</h1>
               </div>
               <div className="col column-line command-actuator">
                 <h1 className="form-command-head-value">Desired Temperature</h1>

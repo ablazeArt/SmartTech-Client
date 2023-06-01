@@ -40,7 +40,7 @@ const IrsensorDcEdit = () => {
             <form onSubmit={submitForm}>
               <div className="row align-items-start">
                 <div className="col column-line command-actuator">
-                  <h1 head-block>Dc Motor</h1>
+                  <h1 className="actuator-name-form">Dc Motor</h1>
                 </div>
                 <div className="col column-line command-actuator">
                   <h1>

@@ -50,7 +50,7 @@ const FormLevelLed = () => {
           <form onSubmit={submitForm}>
             <div className="row align-items-start command-form">
               <div className="col column-line command-actuator">
-                <h1 head-block>LED</h1>
+                <h1 className="actuator-name-form">LED</h1>
               </div>
               <div className="col column-line command-actuator">
                 <h1>

@@ -69,7 +69,7 @@ const TimerBuzzerEdit = () => {
             <form onSubmit={submitForm}>
               <div className="row align-items-start">
                 <div className="col column-line command-actuator">
-                  <h1 head-block>Buzzer</h1>
+                  <h1 className="actuator-name-form">Buzzer</h1>
                 </div>
                 <div className="col column-line command-actuator">
                   <h1>
@@ -79,7 +79,7 @@ const TimerBuzzerEdit = () => {
                       <option value="off">OFF</option>
                     </select>
                   </h1>
-                  <h1 head-block>Starting Time</h1>
+                  <h1 className="actuator-name-form">Starting Time</h1>
                   <h1>
                     <select onChange={inputValue("dayStart")}>
                       <option value="">Previous Starting Day {dayStart}</option>
@@ -98,7 +98,7 @@ const TimerBuzzerEdit = () => {
                       {optionsMinute}
                     </select>
                   </h1>
-                  <h1 head-block>Ending Time</h1>
+                  <h1 className="actuator-name-form">Ending Time</h1>
                   <h1>
                     <select onChange={inputValue("dayEnd")}>
                       <option value="">Previous Ending Day {dayEnd}</option>

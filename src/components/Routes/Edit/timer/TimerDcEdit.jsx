@@ -70,7 +70,7 @@ const TimerDcEdit = () => {
             <form onSubmit={submitForm}>
               <div className="row align-items-start">
                 <div className="col column-line command-actuator">
-                  <h1 head-block>Dc Motor</h1>
+                  <h1 className="actuator-name-form">Dc Motor</h1>
                 </div>
                 <div className="col column-line command-actuator">
                   <h1 className="form-command-head-value value-command">Speed</h1>
@@ -81,7 +81,7 @@ const TimerDcEdit = () => {
                       <option value="backward">Backward</option>
                     </select>
                   </h1>
-                  <h1 head-block>Starting Time</h1>
+                  <h1 className="actuator-name-form">Starting Time</h1>
                   <h1>
                     <select onChange={inputValue("dayStart")}>
                       <option value="">Previous Starting Day {dayStart}</option>
@@ -100,7 +100,7 @@ const TimerDcEdit = () => {
                       {optionsMinute}
                     </select>
                   </h1>
-                  <h1 head-block>Ending Time</h1>
+                  <h1 className="actuator-name-form">Ending Time</h1>
                   <h1>
                     <select onChange={inputValue("dayEnd")}>
                       <option value="">Previous Ending Day {dayEnd}</option>

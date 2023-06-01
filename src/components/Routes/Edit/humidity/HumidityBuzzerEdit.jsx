@@ -39,7 +39,7 @@ const HumidityBuzzerEdit = () => {
             <form onSubmit={submitForm}>
               <div className="row align-items-start">
                 <div className="col column-line command-actuator">
-                  <h1 head-block>Buzzer</h1>
+                  <h1 className="actuator-name-form">Buzzer</h1>
                 </div>
                 <div className="col column-line command-actuator">
                   <h1 className="form-command-head-value">Desired Humidity</h1>

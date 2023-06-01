@@ -866,4 +866,74 @@ option {
     font-size: 0.65rem;
   }
 
+  .actuator-name-form {
+    font-size: 1.5rem;
+  }
+
+}
+
+@media (max-width: 426px) {
+
+  [role="progressbar"] {
+    --size: 70px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+
+  .home-actuator {
+    margin-top: 10px;
+  }
+
+  .value-text {
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 15px;
+    padding: 5px 10px;
+    border: 1px solid;
+    border-radius: 8px;
+    background-color: #c5d3db;
+    color: var(--deep-color);
+    font-size: 2rem;
+    font-weight: 650;
+  }
+
+  .list-display {
+    display: flex;
+    justify-content: center;
+  }
+
+  .list-display-text {
+    margin: 13px 2px 20px;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 0.45rem;
+  }
+
+  .form-command-head-value {
+    font-size: 0.8rem;
+  }
+
+  .form-value {
+    margin-bottom: 25px;
+    margin-right: 0px;
+    padding: 5px 10px;
+    font-size: 0.4rem;
+  }
+
+  .form-submit {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 7px 5px;
+    border: 1px solid #dedede;
+    border-radius: 8px;
+    background-color: #36dd73;
+  }
+
+  .command-actuator select {
+    font-size: 1rem;
+  }
+
+  .actuator-name-form {
+    font-size: 0.8rem;
+  }
 }
