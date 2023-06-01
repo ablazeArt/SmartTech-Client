@@ -5,7 +5,7 @@ import MyRoute from './MyRoute';
 import reportWebVitals from './reportWebVitals';
 import { disableReactDevTools } from '@fvilers/disable-react-devtools'
 
-if (Process.env.REACT_APP_API === 'production') disableReactDevTools()
+if (process.env.REACT_APP_API === 'production') disableReactDevTools()
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
